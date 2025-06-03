@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #d6a4ff, #ff8c94);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  color: #6a0572;
+  margin-bottom: 20px;
+}
+
+.converter input,
+.converter select,
+.converter button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.converter button {
+  background-color: #6a0572;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.converter button:hover {
+  background-color: #a34ab0;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #333;
+}
